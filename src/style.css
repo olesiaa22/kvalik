@@ -1,0 +1,26 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  width: 100vw;
+  height: 100vh;
+  gap: 1rem;
+}
+
+
+#coordinates-form {
+  border-right: 1px solid dimgray;
+  height: 100%;
+}
