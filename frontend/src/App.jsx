@@ -31,7 +31,7 @@ function App() {
 
       fileService.download(gCode);
     } catch (error) {
-      console.error;
+      console.error(error);
     } finally {
       setLoading(false);
     }
